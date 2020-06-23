@@ -1,0 +1,46 @@
+html{
+    --primary-color: #fff;
+    --secondary-color: #000000;
+    --card: #F5F5F5;
+    --form: rgb(97,97,97);
+}
+
+html[data-theme="dark"]{
+    --primary-color: #000000;
+    --secondary-color: #fff;
+    --card: #353839;
+    --form: #F0FFF0;
+}
+
+.finalFrontIdImage{
+    border-style: solid;
+    border-color: var(--secondary-color);
+    margin-top: 6px;
+    margin-left: 36px;
+    margin-bottom: 18px;
+}
+
+.finalBackIdImage{
+    border-style: solid;
+    border-color: var(--secondary-color);
+    margin-top: 6px;
+    margin-left: 18px;
+    margin-bottom: 18px;
+}
+
+.finalFullIdBody{
+    border-style: solid;
+    border-color: var(--card);
+    margin-top: 8px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.finalImages{
+    background-color: var(--card);
+    padding-top: 8px;
+}
+
+.finalEmpty{
+    height: 300px;
+}

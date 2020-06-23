@@ -1,0 +1,68 @@
+html{
+  --primary-color: #fff;
+  --primary: #000000;
+  --card: #F5F5F5;
+  --form: rgb(97,97,97);
+}
+
+html[data-theme="dark"]{
+  --primary-color:#000000;
+  --primary: #fff;
+  --card: #353839;
+  --form: #F0FFF0;
+}
+ .firstGovtId{
+    background-color: var(--primary-color);
+  }
+  
+  .firstIdBody{
+    margin-left: 20px;
+  }
+  
+  .firstAadhaar{
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+  
+  .firstFullIdBody{
+    border-style: solid;
+    border-color: var(--card);
+    margin-top: 12px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 12px;
+  }
+
+.firstIdImage{
+    border-style: solid;
+    border-color: var(--card) !important;
+    margin-top: 15px;
+}
+
+.scrollWrapper{
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  width: 100%;
+  -webkit-overflow-scrolling: touch;
+}
+
+.id{
+  display: inline;
+}
+
+.idButton{
+  background-color: var(--primary-color);
+  border-style: solid;
+  border-color: #c0c0c0;
+  color: #a4a4a4;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 17px;
+  margin-left: 10px;
+}

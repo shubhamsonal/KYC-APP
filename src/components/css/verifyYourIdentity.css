@@ -1,0 +1,42 @@
+
+html{
+    --primary: #000000;
+    --card: #F5F5F5;
+    --form: rgb(97,97,97);
+}
+
+html[data-theme="dark"]{
+    --primary: #fff;
+    --card: #353839;
+    --form: #F0FFF0;
+}
+
+.fullContainer{
+    border-style: solid;
+    border-color: var(--card);
+    background-color: var(--card);
+    margin-top: 8px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.title{
+    margin-top: 4px;
+    margin-bottom: auto;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: left;
+}
+
+.bodyText{
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.imageColumn{
+    max-width: 90px;
+    padding-top: 18px;
+    padding-left: 20px;
+    padding-right: 16px;
+    padding-bottom: 16px;
+};

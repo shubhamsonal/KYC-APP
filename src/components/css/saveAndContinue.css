@@ -1,0 +1,38 @@
+html{
+    --primary-color: #fff;
+    --primary: #000000;
+    --card: #F5F5F5;
+    --form: rgb(97,97,97);
+}
+
+html[data-theme="dark"]{
+    --primary-color:#000000;
+    --primary: #fff;
+    --card: #353839;
+    --form: #F0FFF0;
+}
+
+.sNCFullBody{
+    border-style: solid;
+    margin-top: 6px;
+    border-color: var(--primary-color);
+    border-top-color: var(--card);
+}
+
+.sNCBodyText{
+    margin-top: 11px;
+    margin-left: auto;
+}
+
+.saveAndContinueButton{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+.lockIconColumn{
+    margin-top: 10px;
+    max-width: 30px;
+    margin-left: 22px;
+    margin-right: auto;
+};

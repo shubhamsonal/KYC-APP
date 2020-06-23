@@ -1,0 +1,55 @@
+html{
+  --primary-color: #fff;
+  --primary: #000000;
+  --card: #F5F5F5;
+  --form: rgb(97,97,97);
+}
+
+html[data-theme="dark"]{
+  --primary-color: #000000;
+  --primary: #fff;
+  --card: #353839;
+  --form: #F0FFF0;
+}
+
+.frontGovtId{
+    background-color: var(--primary-color);
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  
+  .frontIdBody{
+    margin-left: 20px;
+  }
+  
+  .frontAadhaar{
+    margin-top: 10px;
+    margin-bottom: 12px;
+  }
+  
+  .frontIdImage{ 
+    display: block;
+    margin-left: 12px;
+    margin-right: 12px;
+    width: 94%; 
+    border-style: solid;
+    border-color: #000000;
+  }
+  
+  .frontIdBodyNImage{
+    background-color: var(--card);
+    padding-top: 8px;
+    padding-bottom: 10px;
+  }
+  
+  .frontFullIdBody{
+    border-style: solid;
+    border-color: var(--card);
+    margin-top: 12px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 12px;
+  }
+  
+  
